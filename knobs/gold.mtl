@@ -1,0 +1,16 @@
+# MTL for material_knob.obj
+
+newmtl core
+Kd 0.48 0.48 0.48
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+
+newmtl logo
+type Metal
+reflectance 0.944 0.776 0.373
+eta 0.277 0.277 0.277
+k 2.93 2.93 2.93
+roughness 0.0

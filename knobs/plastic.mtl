@@ -1,0 +1,15 @@
+# MTL for material_knob.obj
+
+newmtl core
+Kd 0.48 0.48 0.48
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+
+newmtl logo
+type Plastic
+pigmentColor 0.02 0.22 0.75
+eta 1.598 1.598 1.598
+roughness 0.01

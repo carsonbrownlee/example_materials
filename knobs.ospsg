@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<!-- OSPRay Version 1.2.3 -->
+  <renderer type="Renderer" value="">
+    <animationcontroller type="AnimationController" value="">
+      <enabled type="bool">0</enabled>
+      <start type="float">0.000000</start>
+      <step type="float">0.010000</step>
+      <stop type="float">1.000000</stop>
+      <time type="float">0.000000</time>
+    </animationcontroller>
+    <aoDistance type="float">10000.000000</aoDistance>
+    <aoSamples type="int">1</aoSamples>
+    <aoTransparencyEnabled type="bool">1</aoTransparencyEnabled>
+    <autoEpsilon type="bool">1</autoEpsilon>
+    <bgColor type="vec3f">0.900000 0.900000 0.900000</bgColor>
+    <bounds type="box3f"></bounds>
+    <camera type="PerspectiveCamera" value="">
+      <apertureRadius type="float">0.01</apertureRadius>
+      <aspect type="float">1.066514</aspect>
+      <dir type="vec3f">2.47 -0.22 1.03</dir>
+      <focusDistance type="float">2.500000</focusDistance>
+      <fovy type="float">60.000000</fovy>
+      <pos type="vec3f">3.60085 1.3 -1.46</pos>
+      <up type="vec3f">0.000000 1.000000 0.000000</up>
+    </camera>
+    <epsilon type="float">0.001000</epsilon>
+    <frameBuffer type="FrameBuffer" value="">
+      <displayWall type="string"></displayWall>
+      <size type="vec2i">1395 1308</size>
+    </frameBuffer>
+    <lights type="Node" value="">
+      <ambient type="AmbientLight" value="">
+        <color type="vec3f">0.682353 0.854902 1.000000</color>
+        <intensity type="float">0.900000</intensity>
+      </ambient>
+      <bounce type="DirectionalLight" value="">
+        <angularDiameter type="float">0.530000</angularDiameter>
+        <color type="vec3f">0.498039 0.698039 1.000000</color>
+        <direction type="vec3f">-0.930000 -0.540000 -0.605000</direction>
+        <intensity type="float">0.250000</intensity>
+      </bounce>
+      <sun type="DirectionalLight" value="">
+        <angularDiameter type="float">0.530000</angularDiameter>
+        <color type="vec3f">1.000000 0.909804 0.650980</color>
+        <direction type="vec3f">0.462000 -1.000000 -0.100000</direction>
+        <intensity type="float">1.500000</intensity>
+      </sun>
+    </lights>
+    <maxDepth type="int">5</maxDepth>
+    <oneSidedLighting type="bool">1</oneSidedLighting>
+    <rendererType type="string">pt</rendererType>
+    <shadowsEnabled type="bool">1</shadowsEnabled>
+    <spp type="int">1</spp>
+    <varianceThreshold type="float">0.000000</varianceThreshold>
+    <world type="World" value="">
+      <bounds type="box3f"></bounds>
+      <transform_knob_0_0_0 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_0_0_0 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/steel.obj</fileName>
+        </knob_0_0_0>
+        <position type="vec3f">0.000000 0.000000 0.000000</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_0_0_0>
+      <transform_knob_0_0_1 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_0_0_1 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/aluminum.obj</fileName>
+        </knob_0_0_1>
+        <position type="vec3f">0.000000 0.000000 1.299133</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_0_0_1>
+      <transform_knob_0_0_2 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_0_0_2 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/tungsten.obj</fileName>
+        </knob_0_0_2>
+        <position type="vec3f">0.000000 0.000000 2.598266</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_0_0_2>
+      <transform_knob_0_0_3 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_0_0_3 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/titanium.obj</fileName>
+        </knob_0_0_3>
+        <position type="vec3f">0.000000 0.000000 3.897399</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_0_0_3>
+      <transform_knob_1_0_0 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_1_0_0 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/copper.obj</fileName>
+        </knob_1_0_0>
+        <position type="vec3f">1.406007 0.000000 0.000000</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_1_0_0>
+      <transform_knob_1_0_1 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_1_0_1 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/gold.obj</fileName>
+        </knob_1_0_1>
+        <position type="vec3f">1.406007 0.000000 1.299133</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_1_0_1>
+      <transform_knob_1_0_2 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_1_0_2 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/silver.obj</fileName>  
+        </knob_1_0_2>
+        <position type="vec3f">1.406007 0.000000 2.598266</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_1_0_2>
+      <transform_knob_1_0_3 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_1_0_3 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/lead.obj</fileName>
+        </knob_1_0_3>
+        <position type="vec3f">1.406007 0.000000 3.897399</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_1_0_3>
+      <transform_knob_2_0_0 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_2_0_0 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/water.obj</fileName>
+        </knob_2_0_0>
+        <position type="vec3f">2.812014 0.000000 0.000000</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_2_0_0>
+      <transform_knob_2_0_1 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_2_0_1 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/lexan.obj</fileName>
+        </knob_2_0_1>
+        <position type="vec3f">2.812014 0.000000 1.299133</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_2_0_1>
+      <transform_knob_2_0_2 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_2_0_2 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/composition_c4.obj</fileName>
+        </knob_2_0_2>
+        <position type="vec3f">2.812014 0.000000 2.598266</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_2_0_2>
+      <transform_knob_2_0_3 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_2_0_3 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/rubber.obj</fileName>
+        </knob_2_0_3>
+        <position type="vec3f">2.812014 0.000000 3.897399</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_2_0_3>
+      <transform_knob_3_0_0 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_3_0_0 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/plastic.obj</fileName>
+        </knob_3_0_0>
+        <position type="vec3f">4.218021 0.000000 0.000000</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_3_0_0>
+      <transform_knob_3_0_1 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_3_0_1 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/plywood.obj</fileName>
+        </knob_3_0_1>
+        <position type="vec3f">4.218021 0.000000 1.299133</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_3_0_1>
+      <transform_knob_3_0_2 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_3_0_2 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/concrete.obj</fileName>
+        </knob_3_0_2>
+        <position type="vec3f">4.218021 0.000000 2.598266</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_3_0_2>
+      <transform_knob_3_0_3 type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_3_0_3 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/knobs/glass.obj</fileName>
+        </knob_3_0_3>
+        <position type="vec3f">4.218021 0.000000 3.897399</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_3_0_3>
+      <transform_knob_ground type="Transform" value="">
+        <bounds type="box3f"></bounds>
+        <knob_0_0_1 type="Importer" value="">
+          <bounds type="box3f"></bounds>
+          <fileName type="string">/bertha/graphics_scenes/mori_knob/ground.obj</fileName>
+        </knob_0_0_1>
+        <position type="vec3f">0.000000 0.000000 0.0</position>
+        <scale type="vec3f">1.000000 1.000000 1.000000</scale>
+        <visible type="bool">1</visible>
+      </transform_knob_ground>
+    </world>
+  </renderer>

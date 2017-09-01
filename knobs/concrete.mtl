@@ -1,0 +1,22 @@
+# MTL for material_knob.obj
+
+newmtl core
+Kd 0.48 0.48 0.48
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+
+newmtl logo
+type default
+Ka 0.1 0.1 0.1
+Kd 0.8 0.8 0.8 
+Ks 0.2 0.2 0.2 
+Ni 1.01
+Tf 0.9 0.9 0.9
+Ns 10.0000 
+illum 4 
+map_Kd textures/concrete_d.png
+map_Ks textures/concrete_s.png
+map_bump textures/concrete_n.png
