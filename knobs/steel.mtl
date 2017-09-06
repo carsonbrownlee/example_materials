@@ -1,4 +1,6 @@
 # MTL for material_knob.obj
+#NOTE Carson:  I was unable to find any eta/k values for steel from main refractiveindex.info,
+# instead found through google search
 
 newmtl core
 Kd 0.48 0.48 0.48
@@ -10,7 +12,6 @@ Ks 0.04 0.04 0.04
 
 newmtl logo
 type Metal
-reflectance 0.5 0.5 0.5
-eta 0.3 0.3 0.3
-k 0.1 0.1 0.1
+eta 2.757 2.757 2.757
+k 3.792 3.792 3.792
 roughness 0.1

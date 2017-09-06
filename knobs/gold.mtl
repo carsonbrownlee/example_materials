@@ -1,4 +1,7 @@
 # MTL for material_knob.obj
+#red: 701 nm
+#green: 534.5 nm
+#blue: 473.5 nm
 
 newmtl core
 Kd 0.48 0.48 0.48
@@ -10,7 +13,7 @@ Ks 0.04 0.04 0.04
 
 newmtl logo
 type Metal
-reflectance 0.944 0.776 0.373
-eta 0.277 0.277 0.277
-k 2.93 2.93 2.93
-roughness 0.0
+reflectance 1 1 1
+eta 0.131 0.527 1.28
+k 4.07 2.26 1.848
+roughness 0.1

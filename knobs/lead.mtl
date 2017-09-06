@@ -11,6 +11,6 @@ Ks 0.04 0.04 0.04
 newmtl logo
 type Metal
 reflectance 0.632 0.626 0.641
-eta 1.88 1.88 1.88
-k 3.49 3.49 3.49
-roughness 0.0
+eta 1.78 1.79 1.59
+k 3.57 3.36 3.24
+roughness 0.3
